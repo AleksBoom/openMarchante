@@ -1,1 +1,2 @@
 # openMarchante
+Mini CMS 
