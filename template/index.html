@@ -3,109 +3,131 @@
   <head>
     <meta charset="utf-8">
     <title>openMarchante</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
     <header id="barsup"><!-- Considerar este encabezado como una barra de estado superior
     -->
-      <aside id="moneda">$v</aside>
-      <nav id="menuStat" >Tel | User | Deseos | Carrito | Salir | </nav>
+      <aside id="moneda">$ Moneda <i class="fa fa-caret-down"></i></aside>
+      <nav id="menuStat" ><i class="fa fa-phone"></i> 57505823
+        <i class="fa fa-user"></i> User  <i class="fa fa-heart"></i> Deseos
+        <i class="fa fa-shopping-cart"></i> Carrito
+        <i class="fa fa-sign-out"></i> Salir
+      </nav><!-- Termina NAV menuStat-->
       <div class="reset">
       </div>
   </header>
   <article>
     <header>
-      <img src="img/logo.jpg" alt="logo"/>
-      <form action="index.html" method="get">
-        <input type="text" name"palabras" required placeholder="haga una busqueda">
-        <input type="submit" value="[icon]"
-      </form>
+      <img src="img/logo.png" alt="logo"/>
       <aside id="carStatus">
-        [icon]0 item(s)- $0.00
+        <i class="fa fa-shopping-cart"></i> 0 item(s)-$0.00
       </aside>
+      <form action="index.html" method="get">
+        <input id="busqueda" type="text" name"palabras"
+        required placeholder="haga una busqueda"/><button id="submit"
+        type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
       </header>
       <nav>
         <ul>
-          <li>Desktops
+          <li><a href="">Desktops</a>
             <ul>
-            <li>PC (0)</li>
-            <li>MAC (1)</li>
+            <li><a href="">PC (0)</li></a>
+            <li><a href="">MAC (1)</li></a>
+            <li><a href="">Linux (5)</li></a>
             <li class="sep"></li>
-            <li>ver todo</li>
+            <li><a href="">ver todo</li></a>
+          </ul>
+      </li>
+      <ul>
+      <li><a href="">Laptop & Notebooks</a>
+        <ul>
+        <li><a href="">PC (0)</li></a>
+        <li><a href="">MAC (1)</li></a>
+        <li class="sep"></li></a>
+        <li><a href="">ver todo</li></a>
         </ul>
       </li>
-      <li>
-        <ul>
-        <li>PC (0)</li>
-        <li>MAC (1)</li>
-        <li class="sep"></li>
-        <li>ver todo</li>
     </ul>
-  </li>
-    </ul>
-
-
+    <ul>
+    <li><a href="">Components</a>
+      <ul>
+      <li><a href="">PC (0)</li></a>
+      <li><a href="">MAC (1)</li></a>
+      <li class="sep"></li></a>
+      <li><a href="">ver todo</li></a>
+      </ul>
+    </li>
+  </ul>
+    <div class="reset">
+    </div>
       </nav>
       <header id="ruta">
         [icon house|inicio]> Laptops y Notebooks>
       </header>
       <section>
-        <div id="baner">
-          colocar imagen del tamaño del banner
+        <div id="banner">
+          <img src="img/iPhone6-1140x380.jpg" alt="iphone6"/>
         </div>
       <div id="ofertas">
         <h3>Ofertas</h3>
         <aside><!-- Este Aside muestra un producto-->
-            <img src="img/productos/0001.jpg" alt="macbook"/>
-            <h4>MacBook</h4>
+            <a href=""><img src="img/productos/macbook_1-200x200.jpg" alt="macbook"/></a>
+            <h4><a href="">MacBook</a></h4>
             <p> Descripicon del equipo</P>
             <p><strong>$602</strong></p>
             <div class="barinf">
-              <aside>[icon cart] Adicionar a carrito</aside>
-              <aside>[icon heart] Adicionar a la lista de deseos</aside>
+            <a href=""><i class="fa fa-shopping-cart"></i></a>
+            <a href=""><i class="fa fa-heart"></i> </a>
             </div>
           </aside>
           <aside><!-- Este Aside muestra un producto-->
-              <img src="img/productos/0002.jpg" alt="monitor"/>
-              <h4>Monitor</h4>
+              <a href=""><img src="img/productos/iphone_1-200x200.jpg" alt="iphone"/></a>
+              <h4><a href="">Iphone</a></h4>
               <p> Descripicon del equipo</P>
               <p><strong>$1002</strong></p>
               <div class="barinf">
-                <aside>[icon cart] Adicionar a carrito</aside>
-                <aside>[icon heart] Adicionar a la lista de deseos</aside>
+                <a href=""><i class="fa fa-shopping-cart"> </i></a>
+                <a href=""><i class="fa fa-heart"></i> </a>
               </div>
             </aside>
             <aside><!-- Este Aside muestra un producto-->
-                <img src="img/productos/0003.jpg" alt="camara"/>
-                <h4>Camara</h4>
+                <a href=""><img src="img/productos/apple_cinema_30-200x200.jpg" alt="cinema30"/></a>
+                <h4><a href="">Camara</a></h4>
                 <p> Descripicon del equipo</P>
                 <p><strong>$1002</strong></p>
                 <div class="barinf">
-                  <aside>[icon cart] Adicionar a carrito</aside>
-                  <aside>[icon heart] Adicionar a la lista de deseos</aside>
+                  <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  <a href=""><i class="fa fa-heart"></i> </a>
                 </div>
               </aside>
-              <aside><!-- Este Aside muestra un producto-->
-                  <img src="img/productos/0004.jpg" alt="impresora"/>
-                  <h4>Impresora</h4>
+              <aside class="ultimo"><!-- Este Aside muestra un producto-->
+                  <a href=""><img src="img/productos/canon_eos_5d_1-200x200.jpg" alt="impresora"/></a>
+                  <h4><a href="">Impresora</a></h4>
                   <p> Descripicon del equipo</P>
                   <p><strong>$1002</strong></p>
                   <div class="barinf">
-                    <aside>[icon cart] Adicionar a carrito</aside>
-                    <aside>[icon heart] Adicionar a la lista de deseos</aside>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    <a href=""><i class="fa fa-heart"></i> </a>
                   </div>
                 </aside>
-      </div>
+                <div class="reset"></div>
+      </div><!--Termina div ofertas-->
       <div id="marcas"><!-- este es un slide de marcas-->
         <div>
-          <img src="img/marcas/001.jpg" alt="marca 1"/>
-          <img src="img/marcas/001.jpg" alt="marca 1"/>
-          <img src="img/marcas/001.jpg" alt="marca 1"/>
+          <img src="img/marcas/harley-130x100.png" alt="marca 1"/>
+          <img src="img/marcas/canon-130x100.png" alt="marca 1"/>
+          <img src="img/marcas/dell-130x100.png" alt="marca 1"/>
         </div>
       </div>
       </section>
   </article>
   <footer>
+    <section>
     <aside>
       <h3>Información</h3>
       <ul>
@@ -132,7 +154,7 @@
       <li>Especiales</li>
     </ul>
     </aside>
-    <aside>
+    <aside class="ultimo">
       <h3>Mi cuenta</h3>
       <ul>
       <li>..</li>
@@ -141,7 +163,12 @@
       <li>..</li>
     </ul>
     </aside>
-
+    <div class="reset">
+    </div>
+    <hr/>
+    <p>Power By OpenMarchante<br/>
+      Your Store, CopyLeft 2015</p>
+  </section>
   </footer>
   <script>
   </script>
