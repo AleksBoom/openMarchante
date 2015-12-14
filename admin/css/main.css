@@ -1,0 +1,135 @@
+/**Estilos del Header**/
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+header{
+  background-color: #eee;
+  height: 40px;
+  font-size: 19px;
+  padding-left: 15px;
+  color:#333;
+  border-bottom:solid 1px #ccc;
+  }
+header aside{
+    display: inline-block;
+    color: #666;
+    padding-top: 5px;
+  }
+article {
+  width: 320px;
+  background-color: #eee;
+  margin: 10px auto;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+  border-radius: 8px;
+  border: solid 1px #ccc;
+}
+
+article form input{
+  width: 250px;
+  height: 28px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  text-indent: 25px;
+  display: block;
+}
+article form input:focus{
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 3px #fff;
+}
+article form label{
+padding-bottom: 3px;
+padding-top: 10px;
+font-size: 14px;
+color: #666;
+display: block;
+}
+article form span{
+  position: absolute;
+  padding: 6px;
+}
+article form span i{
+  color:#333;
+}
+article form button{
+  height: 35px;
+  float: right;
+  display: block;
+  color: #333;
+  margin-right: 64px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+article form button i{
+  padding-right: 5px;
+}
+
+article div{
+  height: 25px;
+  width: 250px;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #F6D8CE;
+  border: 1px solid #FE2E2E;
+}
+article div p{
+  text-align: center;
+  color: #F78181;
+  margin: 0px auto;
+  padding-top: 3px;
+}
+/*nav#menuStatAdmin{
+
+  padding-top: 5px;
+
+  padding-right: 15px;
+  color: #666;
+}*/
+header nav{
+  width: 155px;
+  height: 40px;
+  float: right;
+  display: inline-block;
+
+}
+header nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+header nav ul li{
+  height: 35px;
+  float: left;
+  position: relative;
+  border-left: 1px solid #ccc;
+  padding-left: 7px;
+  padding-top: 5px;
+}
+li.small{
+  width: 30px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #666;
+}
+
+/**Estilos del Foter**/
+footer{
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+}
+footer aside{
+  width: 600px;
+  height: 50px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
