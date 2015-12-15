@@ -6,122 +6,149 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/responsiveslides.css"/>
+    
+    
   </head>
   <body>
     <header id="barsup"><!-- Considerar este encabezado como una barra de estado superior
     -->
       <aside id="moneda">$ Moneda <i class="fa fa-caret-down"></i></aside>
-      <nav id="menuStat" ><i class="fa fa-phone"></i> 57505823
-        <i class="fa fa-user"></i> User  <i class="fa fa-heart"></i> Deseos
-        <i class="fa fa-shopping-cart"></i> Carrito
-        <i class="fa fa-sign-out"></i> Salir
+      <nav id="menuStat" ><a href="contacto.html"> <i class="fa fa-phone"></i> 55 50 51 53</a>
+        <a href="login.html"><i class="fa fa-user"></i> User  </a><a href="lista-deseos.html"> <i class="fa fa-heart"></i> Deseos </a>
+        <a href="lista-productos-carrito.html"><i class="fa fa-shopping-cart"></i> Carrito</a> <a href="login.html"><i class="fa fa-sign-out"></i> Salir</a>
       </nav><!-- Termina NAV menuStat-->
       <div class="reset">
       </div>
   </header>
   <article>
     <header>
-      <img src="img/logo.png" alt="logo"/>
+      <a href="index.php"><img src="img/logo268x51.png" alt="OpenMarchante-logo"/>
+ </a>
       <aside id="carStatus">
         <i class="fa fa-shopping-cart"></i> 0 item(s)-$0.00
       </aside>
       <form action="index.html" method="get">
-        <input id="busqueda" type="text" name"palabras"
-        required placeholder="haga una busqueda"/><button id="submit"
+        <input id="busqueda" type="text" name="palabras"
+        required placeholder="haga una búsqueda"/><button id="submit"
         type="submit"><i class="fa fa-search"></i></button>
       </form>
 
       </header>
-      <nav>
+      <nav id="menuPrin">
         <ul>
-          <li><a href="">Desktops</a>
+          <li><a href="nosotros.html">Nosotros</a>
             <ul>
-            <li><a href="">PC (0)</li></a>
-            <li><a href="">MAC (1)</li></a>
-            <li><a href="">Linux (5)</li></a>
+            <li><a href="hacemos.html">Qué hacemos </li></a>
+            <li><a href="somos.html">Quiénes somos </li></a>
+            <li><a href="valores.html">Valores </li></a>
             <li class="sep"></li>
-            <li><a href="">ver todo</li></a>
+            <li><a href="nosotros.html">ver todo</li></a>
           </ul>
       </li>
       <ul>
-      <li><a href="">Laptop & Notebooks</a>
+      <li><a href="lista-productos.html">Destinos</a>
         <ul>
-        <li><a href="">PC (0)</li></a>
-        <li><a href="">MAC (1)</li></a>
+        <li><a href="lista-productos.html">América del Norte</li></a>
+        <li><a href="lista-productos.html">América Latina</li></a>
+        <li><a href="lista-productos.html">Europa</li></a>
+        <li><a href="lista-productos.html">Asia</li></a>
+        <li><a href="lista-productos.html">África</li></a>
+        <li><a href="lista-productos.html">Oceania</li></a>
         <li class="sep"></li></a>
-        <li><a href="">ver todo</li></a>
+        <li><a href="lista-productos.html">ver todo</li></a>
         </ul>
       </li>
     </ul>
     <ul>
-    <li><a href="">Components</a>
+    <li><a href="lista-categorias.html">Servicios</a>
       <ul>
-      <li><a href="">PC (0)</li></a>
-      <li><a href="">MAC (1)</li></a>
+      <li><a href="ofertas.html">Ofertas</li></a>
+      <li><a href="lista-categorias.html">Vuelos</li></a>
+      <li><a href="lista-categorias.html">Hoteles</li></a>
+      <li><a href="lista-categorias.html">Paquetes</li></a>
+      <li><a href="lista-categorias.html">Seguros</li></a>
       <li class="sep"></li></a>
-      <li><a href="">ver todo</li></a>
+      <li><a href="lista-categorias.html">ver todo</li></a>
       </ul>
     </li>
   </ul>
-    <div class="reset">
-    </div>
-      </nav>
+    <div class="reset"></div>
+      </nav><!--termina menúPrin-->
       <header id="ruta">
-        [icon house|inicio]> Laptops y Notebooks>
+        [icon house|inicio]> Nosotros>
       </header>
       <section>
-        <div id="banner">
-          <img src="img/iPhone6-1140x380.jpg" alt="iphone6"/>
-        </div>
+       
+         <div id="baner">
+            <figure>
+            <img src="img/baner/4.jpg" alt="OpenMarchante">
+            <img src="img/baner/7.jpg" alt="OpenMarchante">
+            <img src="img/baner/8.jpg" alt="OpenMarchante">
+            <img src="img/baner/9.jpg" alt="OpenMarchante">
+            <img src="img/baner/10.jpg" alt="OpenMarchante">
+            </figure>
+		</ul>
+	</div>
+    </div></div>
+  </div>
+</section>
+         
       <div id="ofertas">
-        <h3>Ofertas</h3>
+          <hr/><h3><a href="ofertas.html">Ofertas</a></h3><hr/><hr/>
         <aside><!-- Este Aside muestra un producto-->
-            <a href=""><img src="img/productos/macbook_1-200x200.jpg" alt="macbook"/></a>
-            <h4><a href="">MacBook</a></h4>
-            <p> Descripicon del equipo</P>
-            <p><strong>$602</strong></p>
+            <a href="ofertas.html"><img src="img/productos/0.jpg" alt="NY"/></a>
+           <h4><a href="detalle-producto.html">New York, EUA</a></h4>
+            <p>Viaja 8 días a Washington , Niágara , Nueva York</p>
+            
+            <p><strong>$17,116.00 MXN</strong></p>
             <div class="barinf">
-            <a href=""><i class="fa fa-shopping-cart"></i></a>
-            <a href=""><i class="fa fa-heart"></i> </a>
+            <a href="lista-productos-carrito.html"><i class="fa fa-shopping-cart"></i></a>
+            <a href="lista-deseos.html"><i class="fa fa-heart"></i> </a>
             </div>
           </aside>
           <aside><!-- Este Aside muestra un producto-->
-              <a href=""><img src="img/productos/iphone_1-200x200.jpg" alt="iphone"/></a>
-              <h4><a href="">Iphone</a></h4>
-              <p> Descripicon del equipo</P>
-              <p><strong>$1002</strong></p>
+              <a href="ofertas.html"><img src="img/productos/1.jpg" alt="Bélgica"/></a>
+              <h4><a href="detalle-producto.html">Bruselas, Bélgica</a></h4>
+              <p> Escápate 4 días a Bruselas</P>
+              <p><strong>$36,002.00 MXN</strong></p>
               <div class="barinf">
-                <a href=""><i class="fa fa-shopping-cart"> </i></a>
-                <a href=""><i class="fa fa-heart"></i> </a>
+                <a href="lista-productos-carrito.html"><i class="fa fa-shopping-cart"> </i></a>
+                <a href="lista-deseos.html"><i class="fa fa-heart"></i> </a>
               </div>
             </aside>
             <aside><!-- Este Aside muestra un producto-->
-                <a href=""><img src="img/productos/apple_cinema_30-200x200.jpg" alt="cinema30"/></a>
-                <h4><a href="">Camara</a></h4>
-                <p> Descripicon del equipo</P>
-                <p><strong>$1002</strong></p>
+                <a href="ofertas.html"><img src="img/productos/2.jpg" alt="Gruyeres Suiza"/></a>
+                <h4><a href="detalle-producto.html"> Suiza</a></h4>
+                <p> 8 increíbles días en Zurich , Selva Negra , Ginebra, Gruyeres</P>
+                <p><strong>$49,905.63 MXN</strong></p>
                 <div class="barinf">
-                  <a href=""><i class="fa fa-shopping-cart"></i></a>
-                  <a href=""><i class="fa fa-heart"></i> </a>
+                  <a href="lista-productos-carrito.html"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="lista-deseos.html"><i class="fa fa-heart"></i> </a>
                 </div>
               </aside>
               <aside class="ultimo"><!-- Este Aside muestra un producto-->
-                  <a href=""><img src="img/productos/canon_eos_5d_1-200x200.jpg" alt="impresora"/></a>
-                  <h4><a href="">Impresora</a></h4>
-                  <p> Descripicon del equipo</P>
-                  <p><strong>$1002</strong></p>
+                  <a href="ofertas.html"><img src="img/productos/12.jpg" alt="Victoria Falls"/></a>
+                  <h4><a href="detalle-producto.html">Sudáfrica</a></h4>
+                  <p>Expedición 11 días 4 lugares: Johannesburgo , Parque Kruger , Ciudad Del Cabo , Cataratas Victoria</P>
+                  <p><strong>$27,000.00</strong></p>
                   <div class="barinf">
-                    <a href=""><i class="fa fa-shopping-cart"></i></a>
-                    <a href=""><i class="fa fa-heart"></i> </a>
+                    <a href="lista-productos-carrito.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="lista-deseos.html"><i class="fa fa-heart"></i> </a>
                   </div>
                 </aside>
                 <div class="reset"></div>
       </div><!--Termina div ofertas-->
       <div id="marcas"><!-- este es un slide de marcas-->
         <div>
-          <img src="img/marcas/harley-130x100.png" alt="marca 1"/>
-          <img src="img/marcas/canon-130x100.png" alt="marca 1"/>
-          <img src="img/marcas/dell-130x100.png" alt="marca 1"/>
+          <img src="img/marcas/Aeromexico-Logo130x132.png" alt="aeromexico"/>
+          <img src="img/marcas/air%20canada%20logo130x130.png" alt="air Canada"/>
+          <img src="img/marcas/Air-France-Logo%20130x24.png" alt="AirFrance"/>
+          <img src="img/marcas/burj-al-arab-logo-130x130.jpg" alt="hotel"/>
+          <img src="img/marcas/Logo%20Hotel%20de%20Glace%20130x95.jpg" alt="Hotel"/>
+          <img src="img/marcas/TAM-Airlines-130x46.png" alt="TAM"/>
+          <img src="img/marcas/United_Airlines_earth-logo-130x130.png" alt="United Airlines"/>
         </div>
       </div>
       </section>
@@ -131,42 +158,42 @@
     <aside>
       <h3>Información</h3>
       <ul>
-        <li> Acerca de </li>
-        <li> Delivery Information</li>
-        <li> Privacy Policy</li>
-        <li> Terms & Conditions</li>
-      </ul>
+          <li><a href="login.html">Acerca de</a></li>
+          <li><a href="login.html">Delivery Information</a></li>
+          <li><a href="login.html">Privacy Policy</a></li>
+          <li><a href="login.html">Terms & Conditions</a></li>
+        </ul>
     </aside>
     <aside>
       <h3>Customer Service</h3>
       <ul>
-      <li>Contact Us</li>
-      <li>Returns</li>
-      <li>Site Map</li>
+          <li><a href="login.html">Contact Us</a></li>
+          <li><a href="index.php">Returns</a></li>
+          <li><a href="login.html">Site Map</a></li>
     </ul>
     </aside>
     <aside>
-      <h3>Extra</h3>
+      <h3>Extras</h3>
       <ul>
-      <li>Marca</li>
-      <li>Sugerencias</li>
-      <li>Afiliado</li>
-      <li>Especiales</li>
+          <li><a href="http://www.despegar.com.mx/">Despegar.com</a></li>
+          <li><a href="http://www.mundotravel.es/">Mundo travel</a></li>
+          <li><a href="http://www.bestday.com.mx/">BestDay</a></li>
+          <li><a href="http://mundojoven.com/">Mundo Joven</a></li>
     </ul>
     </aside>
     <aside class="ultimo">
       <h3>Mi cuenta</h3>
       <ul>
-      <li>..</li>
-      <li>..</li>
-      <li>..</li>
-      <li>..</li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="registro.html">Registrar nuevo usuario</a></li>
+        <li><a href="lista-deseos.html">Lista de deseos</a></li>
+        <li><a href="lista-compras.html">Lista de compras</a></li>
     </ul>
     </aside>
     <div class="reset">
     </div>
     <hr/>
-    <p>Power By OpenMarchante<br/>
+    <p>Power By OpenMarchante: got it!<br/>
       Your Store, CopyLeft 2015</p>
   </section>
   </footer>
